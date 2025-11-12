@@ -24,8 +24,6 @@ A full-stack e-commerce platform built with Django REST Framework and React, des
 **Admin – Flash Sale:**  
 ![Admin – Flash Sale](docs/AdminFlashsale.png)
 
-**VideoShowcase:** 
-https://github.com/user-attachments/assets/fbcdc0d5-9905-415e-8d81-f50b6add099d
 
 ## Technologies
 
@@ -66,7 +64,7 @@ https://github.com/user-attachments/assets/fbcdc0d5-9905-415e-8d81-f50b6add099d
 ## Project Structure
 
 ```
-python-naitei25_ecommerce-2/
+
 ├─ accounts/               # User authentication (login, registration, social‑OAuth)
 ├─ cart/                   # Shopping‑cart logic and API endpoints
 ├─ core/                   # Base models, mixins, utilities shared across apps
@@ -88,9 +86,6 @@ python-naitei25_ecommerce-2/
 ### Backend Setup
 
 ```bash
-# Clone and navigate to repository
-git clone https://github.com/awesome-academy/python-naitei25_ecommerce-2
-cd python-naitei25_ecommerce-2
 
 # Create and activate virtual environment
 python -m venv venv
@@ -124,7 +119,7 @@ npm run dev
 
 Configure your `.env` file with:
 
-```Back end env (in the PYTHON-NAITEI25_ECOMMERCE-2 Folder)
+```Back end env
 DB_ENGINE="django.db.backends.postgresql"
 
 DB_PGSSLMODE='require'
